@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FASCO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="body__main">
+
+        <!-- ==== HEADER ===== -->
+        <header class="header">
+            <nav class="nav">
+                <h1 class="nav__logo">FASCO</h1>
+                <div class="nav__collect">
+                    <li class="nav__item">Home</li>
+                    <li class="nav__item">Deals</li>
+                    <li class="nav__item">New Arrivals</li>
+                    <li class="nav__item">Packages</li>
+                    <li class="nav__item">Sign in</li>
+                    <button class="nav__signupbtn">Sign Up</button>
+                </div>
+                <i class="ri-menu-3-fill" id="bars"></i>
+            </nav>
+        </header>
+        <div class="menu" id="menu">
+            <div class="menu__top">
+                <div class="menu__header">
+                    <h1 class="menu__logo">FASCO</h1>
+                    <i class="ri-close-fill" id="nav__cancel"></i>
+                </div>
+                <div class="menu__body">
+                    <ul class="menu__collect">
+                        <div class="menu__item">Home</div>
+                        <li class="menu__item">Deals</li>
+                        <li class="menu__item">New Arrivals</li>
+                        <li class="menu__item">Packages</li>
+                        <li class="menu__item">Sign in</li>
+                        <button class="nav__signupbtn">Sign Up</button>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu__footer">
+                <h1 class="menu__auther">Mr.Kadirov</h1>
+                <div class="menu__icons">
+                    <i class="ri-telegram-fill" id="menu__icon"></i>
+                    <i class="ri-facebook-circle-fill" id="menu__icon"></i>
+                    <i class="ri-instagram-fill" id="menu__icon"></i>
+                    <i class="ri-twitter-fill" id="menu__icon"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero">
+            <div class="home__container">
+                <div class="hero__col">
+                    <img class="hero__col__img" src="./images/hero1.png" alt="img">
+                </div>
+                <div class="hero__col__two">
+                    <div class="hero__col__header">
+                        <img src="./images/hero5.png" alt="img" class="col__header__img">
+                    </div>
+                    <div class="hero__col__body">
+                        <h1 class="col__body__text">ULTIMATE</h1>
+                        <h1 class="col__body__sale">SALE</h1>
+                        <p class="col__body__subtext">NEW COLLECTION</p>
+                        <button class="col__body__btn">SHOP NOW</button>
+                    </div>
+                    <div class="hero__col__footer">
+                        <img src="./images/hero4.png" alt="img" class="col__footer__img">
+                    </div>
+                </div>
+                <div class="hero__col">
+                    <img class="hero__col__img" src="./images/hero2.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BREND ==== -->
+        <section class="brend">
+            <div class="brend__track">
+                <img src="./images/chanel.png" alt="img"  data-aos="zoom-in">
+                <img src="./images/chanel2.png" alt="img" data-aos="fade-up" data-aos-delay="300">
+                <img src="./images/chanel3.png" alt="img" data-aos="fade-up" data-aos-delay="600">
+                <img src="./images/chanel4.png" alt="img" data-aos="fade-up" data-aos-delay="900">
+                <img src="./images/chanel5.png" alt="img" data-aos="fade-up" data-aos-delay="1300">
+
+
+               
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+    delay: 200,
+    offset: 0, 
+    disableMutationObserver: true 
+  });
+
+
+  window.addEventListener('load', AOS.refresh);
+</script>
+</body>
+
+</html>
